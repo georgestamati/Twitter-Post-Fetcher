@@ -363,13 +363,13 @@
           if (showInteractionLinks) {
             op += '<p class="interact"><a href="https://twitter.com/intent/' +
                 'tweet?in_reply_to=' + tids[n] +
-                '" class="twitter_reply_icon"' +
+                '" class="fa fa-reply"' +
                 (targetBlank ? ' target="_blank">' : '>') +
                 'Reply</a><a href="https://twitter.com/intent/retweet?' +
-                'tweet_id=' + tids[n] + '" class="twitter_retweet_icon"' +
+                'tweet_id=' + tids[n] + '" class="fa fa-retweet"' +
                 (targetBlank ? ' target="_blank">' : '>') + 'Retweet</a>' +
                 '<a href="https://twitter.com/intent/favorite?tweet_id=' +
-                tids[n] + '" class="twitter_fav_icon"' +
+                tids[n] + '" class="fa fa-heart"' +
                 (targetBlank ? ' target="_blank">' : '>') + 'Favorite</a></p>';
           }
           if (showImages && images[n] !== undefined && extractImageUrl(images[n]) !== undefined) {
